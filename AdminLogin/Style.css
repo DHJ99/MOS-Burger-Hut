@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("img/img1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cashier-login {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.cashier-login:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 480px) {
+  .container {
+      width: 95%;
+      padding: 20px;
+  }
+
+  input, button {
+      font-size: 16px; 
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+      max-width: 450px;
+  }
+}
