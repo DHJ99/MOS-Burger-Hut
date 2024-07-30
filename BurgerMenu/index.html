@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Screen</title>
+    <link rel="stylesheet" href="Stlyes.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>New Order</h1>
+            <div class="user-info">
+                <span id="userName">User 1</span>
+                <div class="user-icon"></div>
+            </div>
+        </header>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search items...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="category-buttons">
+            <button class="category-btn" data-category="burgers">Burgers</button>
+            <button class="category-btn" data-category="submarine">Submarine</button>
+            <button class="category-btn" data-category="drinks">Drinks</button>
+        </div>
+        <div class="menu-items" id="menuItems">
+            <!-- Menu items will be dynamically added here -->
+        </div>
+        <div class="order-summary">
+            <div id="orderDetails">
+                <p>Order No: <span id="orderNo">1001</span></p>
+                <p>Customer Name: <span id="customerName">John Doe</span></p>
+                <div id="orderItems">
+                    <!-- Ordered items will be dynamically added here -->
+                </div>
+                <p>Sub Total: LKR <span id="subTotal">0.00</span></p>
+                <p>Discount: LKR <span id="discount">0.00</span></p>
+                <p>Total: LKR <span id="total">0.00</span></p>
+                <button id="billButton">Bill</button>
+            </div>
+        </div>
+        <button id="backButton">Back</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
