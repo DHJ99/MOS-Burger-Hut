@@ -33,8 +33,9 @@ body::before {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 20px;
+    gap: 20px;
 }
 
 button {
@@ -56,6 +57,7 @@ button:hover {
 .top-left {
     align-self: flex-start;
 }
+
 #customerDetails {
     align-self: center;
     background-color: white;
@@ -109,6 +111,3 @@ th {
     background-color: #cc0000;
 }
 
-.hidden {
-    display: none;
-}
