@@ -39,7 +39,8 @@ function displayMenuItems(category) {
             <img src="${item.image}" alt="${item.name}">
             <h3>${item.name}</h3>
             <p>LKR ${item.price.toFixed(2)}</p>
-            <button onclick="addToOrder('${item.name}', ${item.price})">ADD</button>
+            <button onclick="addToOrder('${item.name}', ${item.price})">ADD ITEM</button>
+
         `;
         menuItemsContainer.appendChild(itemElement);
     });
