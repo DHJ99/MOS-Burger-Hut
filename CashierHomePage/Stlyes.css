@@ -56,6 +56,30 @@ button:hover {
 .top-left {
     align-self: flex-start;
 }
+#customerDetails {
+    align-self: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    overflow-x: auto; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 600px; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
 
 .search-container {
     display: flex;
@@ -69,29 +93,6 @@ button:hover {
     border: none;
     border-radius: 5px;
     width: 250px;
-}
-
-#customerDetails {
-    align-self: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
 }
 
 .bottom-buttons {
