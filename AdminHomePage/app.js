@@ -1,6 +1,6 @@
 //------------back btn Action----------------
 document.getElementById('btn-logout').addEventListener('click', () => {
-    window.location.href ='../AdminLogin/index.html', '_blank';
+    window.location.href ='../index.html', '_blank';
 });
 
 //------------Stock Management btn Action----------------
