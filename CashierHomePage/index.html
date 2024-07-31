@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="content">
-        <button class="top-left">Order History</button>
+        <button class="top-left" id="orderHist" >Order History</button>
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Enter Customer Phone Number">
-            <button id="searchButton">Search</button>
+            <input type="text" id="searchInputCashierH" placeholder="Enter Customer Phone Number">
+            <button id="searchButtonCasherH">Search</button>
         </div>
         <div id="customerDetails" >
             <table>
@@ -24,7 +24,7 @@
                         <th>Last Order</th>
                     </tr>
                 </thead>
-                <tbody id="customerTableBody">
+                <tbody id="customerTableBodyCashierH">
                     <tr>
                         <td>001</td>
                         <td>Kumara Sangakkara</td>
@@ -85,8 +85,9 @@
             </table>
         </div>
         <div class="bottom-buttons">
-            <button>Add New Customer</button>
-            <button class="logout">Logout</button>
+            <button id="addNewCust">Add New Customer</button>
+            <button id="makeOrder">Make Order</button>
+            <button class="logout" id="logoutbtn">Logout</button>
         </div>
     </div>
     <script src="app.js"></script>

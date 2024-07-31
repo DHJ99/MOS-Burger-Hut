@@ -70,7 +70,7 @@ function updateOrderSummary() {
     total.textContent = sum.toFixed(2);  // Assuming no discount for now
 }
 
-// Event listeners
+
 document.querySelectorAll('.category-btn').forEach(button => {
     button.addEventListener('click', (e) => {
         const category = e.target.dataset.category;
@@ -100,12 +100,12 @@ document.getElementById('searchButton').addEventListener('click', () => {
 });
 
 document.getElementById('billButton').addEventListener('click', () => {
-    alert('Bill generated!');  // Replace with actual billing logic
+    alert('Bill generated!');  
 });
 
 document.getElementById('backButton').addEventListener('click', () => {
-    // Implement back functionality
+    window.location.href ='../CashierHomePage/index.html', '_blank';
 });
 
-// Initialize with burgers
+
 displayMenuItems('burgers');
