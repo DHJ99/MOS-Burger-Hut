@@ -31,6 +31,5 @@ loginForm.addEventListener('submit', function(event) {
 const adminLoginLink = document.getElementById('adminLoginLink');
 adminLoginLink.addEventListener('click',function(event){
     event.preventDefault();
-    window.location.href ='../index.html', '_blank';
-    
+    window.location.href ='../index.html', '_blank';   
 });
